@@ -1,0 +1,75 @@
+body {
+  font-family: "Raleway", sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #3df1b5;
+}
+
+.container {
+  text-align: center;
+  background-color: #9b34d2;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  width: 80%;
+  max-width: 400px;
+}
+
+#username {
+  width: 100%;
+  padding: 12px;
+  margin: 20px 0;
+  box-sizing: border-box;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+}
+
+button {
+  background-color: #ceef3d;
+  color: #ffffff;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 18px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #b1f436;
+}
+
+.hidden {
+  display: none;
+}
+
+#userInfo {
+  margin-top: 20px;
+}
+
+a {
+  color: #f4a261;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 600px) {
+  .container {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .container {
+    width: 95%;
+  }
+}
